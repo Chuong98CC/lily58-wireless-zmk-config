@@ -19,6 +19,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <150>;
         };
+
         td2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -50,10 +51,10 @@
 
         function {
             bindings = <
-&trans       &bt BT_CLR_ALL  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE                         &kp CARET             &kp AMPERSAND          &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE
-&bootloader  &kp F1          &kp F2             &kp F3      &kp F4           &kp F5                                   &msc SCRL_LEFT        &msc SCRL_DOWN         &msc SCRL_UP   &msc SCRL_RIGHT       &kp N7                 &kp LEFT_BRACE
-&kp F16      &kp F6          &kp F7             &kp F8      &kp F9           &kp F10                                  &kp LEFT_ARROW        &kp DOWN_ARROW         &kp UP_ARROW   &kp RIGHT             &kp COLON              &kp DOUBLE_QUOTES
-&kp F17      &kp F11         &kp F12            &kp F13     &kp F14          &kp F15           &trans    &bootloader  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &kp UNDERSCORE
+&trans       &bt BT_CLR_ALL  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE                         &kp CARET             &kp AMPERSAND          &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE
+&bootloader  &kp F1          &kp F2             &kp F3      &kp F4           &kp F5                                   &msc SCRL_LEFT        &msc SCRL_UP           &msc SCRL_DOWN  &msc SCRL_RIGHT       &kp RG(P)              &kp LEFT_BRACE
+&kp F16      &kp F6          &kp F7             &kp F8      &kp F9           &kp F10                                  &kp LEFT_ARROW        &kp DOWN_ARROW         &kp UP_ARROW    &kp RIGHT             &kp COLON              &kp DOUBLE_QUOTES
+&kp F17      &kp F11         &kp F12            &kp F13     &kp F14          &kp F15           &trans    &bootloader  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp LESS_THAN   &kp GREATER_THAN      &kp QUESTION           &kp UNDERSCORE
                                                 &trans      &trans           &trans            &trans    &trans       &trans                &kp RS(ENTER)          &kp PLUS
             >;
         };
