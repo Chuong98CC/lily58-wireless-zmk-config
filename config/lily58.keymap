@@ -44,21 +44,21 @@
 
             display-name = "Base";
             bindings = <
-&kp PAGE_UP               &kp N1  &kp N2  &kp N3         &kp N4            &kp N5                                                               &kp N6       &kp N7             &kp N8     &kp N9   &kp N0    &kp RIGHT_BRACKET
-&hm ESCAPE TAB            &kp Q   &kp W   &kp E          &kp R             &kp T                                                                &kp Y        &kp U              &kp I      &kp O    &kp P     &kp LEFT_BRACKET
-&kp GRAVE                 &kp A   &kp S   &kp D          &hm LEFT_SHIFT F  &kp G                                                                &kp H        &hm RIGHT_SHIFT J  &kp K      &kp L    &kp SEMI  &kp SQT
-&mt LEFT_SHIFT BACKSLASH  &kp Z   &kp X   &kp C          &kp V             &kp B                 &mt LEFT_GUI TAB      &mt RIGHT_GUI BACKSPACE  &kp N        &kp M              &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
-                                          &kp PAGE_DOWN  &kp LEFT_CONTROL  &mt LEFT_SHIFT SPACE  &mt LEFT_ALT SPACE    &mt RA(RIGHT_GUI) DEL    &lt 1 SPACE  &kp ENTER          &kp EQUAL
+&kp PAGE_UP               &kp N1  &kp N2  &kp N3         &kp N4            &kp N5                                                               &kp N6       &kp N7             &kp N8     &kp N9   &kp N0            &kp ENTER
+&hm ESCAPE TAB            &kp Q   &kp W   &kp E          &kp R             &kp T                                                                &kp Y        &kp U              &kp I      &kp O    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp GRAVE                 &kp A   &kp S   &kp D          &hm LEFT_SHIFT F  &kp G                                                                &kp H        &hm RIGHT_SHIFT J  &kp K      &kp L    &kp P             &kp SLASH
+&mt LEFT_SHIFT BACKSLASH  &kp Z   &kp X   &kp C          &kp V             &kp B                 &mt LEFT_GUI TAB      &mt RIGHT_GUI BACKSPACE  &kp N        &kp M              &kp COMMA  &kp DOT  &kp MINUS         &kp EQUAL
+                                          &kp PAGE_DOWN  &kp LEFT_CONTROL  &mt LEFT_SHIFT SPACE  &mt LEFT_ALT SPACE    &mt RA(RIGHT_GUI) DEL    &lt 1 SPACE  &kp SINGLE_QUOTE   &kp SEMI
             >;
         };
 
         function {
             bindings = <
-&trans              &bt BT_CLR_ALL  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP    &kp K_PLAY_PAUSE                         &kp CARET             &kp AMPERSAND          &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE
-&bootloader         &kp F1          &kp F2             &kp F3      &kp F4             &kp F5                                   &msc SCRL_LEFT        &msc SCRL_UP           &msc SCRL_DOWN  &msc SCRL_RIGHT       &kp RG(P)              &kp LEFT_BRACE
-&kp F16             &kp F6          &kp F7             &kp F8      &hm LEFT_SHIFT F9  &kp F10                                  &kp LEFT_ARROW        &hm RIGHT_SHIFT DOWN   &kp UP_ARROW    &kp RIGHT             &kp COLON              &kp DOUBLE_QUOTES
-&hm LEFT_SHIFT F17  &kp F11         &kp F12            &kp F13     &kp F14            &kp F15           &trans    &bootloader  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp LESS_THAN   &kp GREATER_THAN      &kp QUESTION           &kp UNDERSCORE
-                                                       &trans      &trans             &trans            &trans    &trans       &trans                &kp RS(ENTER)          &kp PLUS
+&trans              &bt BT_CLR_ALL  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP    &kp K_PLAY_PAUSE                         &kp CARET             &kp AMPERSAND          &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RS(ENTER)
+&bootloader         &kp F1          &kp F2             &kp F3      &kp F4             &kp F5                                   &msc SCRL_LEFT        &msc SCRL_UP           &msc SCRL_DOWN  &msc SCRL_RIGHT       &kp LEFT_BRACE         &kp RIGHT_BRACE
+&kp F16             &kp F6          &kp F7             &kp F8      &hm LEFT_SHIFT F9  &kp F10                                  &kp LEFT_ARROW        &hm RIGHT_SHIFT DOWN   &kp UP_ARROW    &kp RIGHT             &kp RG(P)              &kp QUESTION
+&hm LEFT_SHIFT F17  &kp F11         &kp F12            &kp F13     &kp F14            &kp F15           &trans    &bootloader  &kp RG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &kp LESS_THAN   &kp GREATER_THAN      &kp UNDER              &kp PLUS
+                                                       &trans      &trans             &trans            &trans    &trans       &trans                &kp DOUBLE_QUOTES      &kp COLON
             >;
         };
     };
